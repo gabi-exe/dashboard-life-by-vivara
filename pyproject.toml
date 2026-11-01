@@ -1,0 +1,22 @@
+[project]
+name = "dashboard-dados-life-by-vivara"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gabriele Fernandes", email = "gabriellyfernandes287@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+dashboard-dados-life-by-vivara = "dashboard_dados_life_by_vivara:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
